@@ -14,7 +14,7 @@
     color: white;
     font-weight: bolder;
     font-size: 40px;
-    height: 50px;
+    height: 70px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -30,6 +30,7 @@
 
 .search-box {
     width: 25%;
+    
 }
 
 .search-header {
@@ -56,10 +57,10 @@
     width: 75%;
     display: flex;
     border: solid;
-    border-color: #8c8b8b;
+    border-color: #b7b7b7;
     border-width: 5px;
     border-radius: 10px;
-    height: 320px;
+    height: 300px;
     margin-left: 20px;
 
 }
