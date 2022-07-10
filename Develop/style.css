@@ -109,3 +109,23 @@
     text-align: center;
 }
 
+.temp {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+.wind {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+.humidity {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
