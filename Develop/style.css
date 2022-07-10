@@ -99,11 +99,13 @@
     border-color: rgba(7,43,144,1);
     background-color: rgba(7,43,144,1);
     margin: 6px 6px 6px 6px;
+    
 }
 
-.date1{
+.date{
     font-family: 'Rubik', sans-serif;
     color: white;
-    font-size: 22px;
+    font-size: 26px;
     text-align: center;
 }
+
