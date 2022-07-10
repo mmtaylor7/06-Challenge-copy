@@ -100,3 +100,10 @@
     background-color: rgba(7,43,144,1);
     margin: 6px 6px 6px 6px;
 }
+
+.date1{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
