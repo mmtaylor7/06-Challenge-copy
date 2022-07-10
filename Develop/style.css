@@ -21,3 +21,12 @@
     align-items: center;
     margin: 10px;
 }
+
+.search-box {
+    width: 25%;
+}
+
+.search-header {
+    font-family: 'Rubik', sans-serif;
+    font-size: 27px;
+}
