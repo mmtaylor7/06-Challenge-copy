@@ -20,6 +20,12 @@
     justify-content: center;
     align-items: center;
     margin: 10px;
+    border-radius: 10px;
+}
+
+.main {
+    display: flex;
+    flex: wrap;
 }
 
 .search-box {
@@ -44,4 +50,16 @@
 
 .divider {
     border-top: 5px solid #8c8b8b;
+}
+
+.display-box {
+    width: 75%;
+    display: flex;
+    border: solid;
+    border-color: #8c8b8b;
+    border-width: 5px;
+    border-radius: 10px;
+    height: 320px;
+    margin-left: 20px;
+
 }
