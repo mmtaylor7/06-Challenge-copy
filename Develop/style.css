@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,4,80,1) 18%, rgba(7,6,97,1) 25%, rgba(9,9,121,1) 35%, rgba(7,43,144,1) 46%, rgba(6,68,160,1) 54%, rgba(6,84,171,1) 59%, rgba(5,99,181,1) 64%, rgba(3,146,212,1) 79%, rgba(2,177,232,1) 89%, rgba(0,212,255,1) 100%);
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+
+}
