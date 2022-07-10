@@ -53,14 +53,32 @@
     border-top: 5px solid #8c8b8b;
 }
 
-.display-box {
+.data-display {
     width: 75%;
+    
+    border: solid;
+    border-color: #b7b7b7;
+    border-width: 3px;
+    border-radius: 10px;
+    height: 565px;
+    margin-left: 20px;
+}
+
+.city-display-box {
+    width: 100%;
     display: flex;
     border: solid;
     border-color: #b7b7b7;
-    border-width: 5px;
+    border-width: 3px;
     border-radius: 10px;
     height: 300px;
-    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.five-day {
+    font-family: 'Rubik', sans-serif;
+    font-size: 27px;
 
 }
