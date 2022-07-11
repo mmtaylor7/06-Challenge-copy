@@ -80,6 +80,13 @@
 .city {
     font-family: 'Rubik', sans-serif;
     font-size: 45px;
+    margin-left: 5px;
+
+}
+
+.city-title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 45px;
     margin-left: 12px;
 
 }
@@ -170,3 +177,6 @@
     text-align: left;
 }
 
+.temperature0 {
+    margin: 5px;
+}

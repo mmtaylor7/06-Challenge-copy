@@ -15,9 +15,9 @@ async function displayCurrentWeather() {
         let weatherData = await fetch("https://api.openweathermap.org/data/2.5/weather?lat="+ lat + "&lon=" + lon + "&appid=" + APIKey + "&units=imperial");
         weatherData = await weatherData.json();
         document.querySelector(".city").innerHTML = weatherData.name;
-        document.querySelector(".current-temp").innerHTML = weatherData.main.temp;
-        document.querySelector(".current-humidity").innerHTML = weatherData.main.humidity;
-        document.querySelector(".current-wind").innerHTML = weatherData.wind;
+        document.querySelector(".temperature0").innerHTML = weatherData.main.temp;
+        document.querySelector(".humidity0").innerHTML = weatherData.main.humidity;
+        document.querySelector(".wind0").innerHTML = weatherData.wind;
 
         console.log(weatherData);
     }
