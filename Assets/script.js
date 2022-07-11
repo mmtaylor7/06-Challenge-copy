@@ -9,6 +9,6 @@ fetch(queryURL);
 function displayCurrentWeather() {
     city = getElementsByClassName(city);
     if(city) {
-        
+         
     }
 }
