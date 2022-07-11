@@ -7,8 +7,10 @@ var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&ap
 fetch(queryURL);
 
 function displayCurrentWeather() {
-    city = getElementsByClassName(city);
+    city = getElementsByClassName('city').value;
     if(city) {
-         
+        
+        
     }
+    
 }
