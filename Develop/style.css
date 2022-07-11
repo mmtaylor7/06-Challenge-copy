@@ -66,15 +66,47 @@
 
 .city-display-box {
     width: 100%;
-    display: flex;
     border: solid;
     border-color: #b7b7b7;
     border-width: 3px;
     border-radius: 10px;
     height: 300px;
-    align-items: center;
-    justify-content: center;
+}
+
+.title-container{
+    display: flex;
+}
+
+.city {
+    font-family: 'Rubik', sans-serif;
+    font-size: 45px;
+    margin-left: 12px;
+
+}
+
+.current-image {
+    margin-left: 20px;
+    ;
+}
+
+.current-temp {
+    margin-left: 12px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    margin-top: 15px;
     
+}
+
+.current-wind {
+    margin-left: 12px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+}
+
+.current-humidity {
+    margin-left: 12px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
 }
 
 .five-day {
@@ -130,3 +162,4 @@
     font-size: 20px;
     text-align: left;
 }
+
