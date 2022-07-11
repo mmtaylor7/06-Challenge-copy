@@ -177,6 +177,13 @@
     text-align: left;
 }
 
+.uv {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
 .temperature0 {
     margin: 5px;
 }
