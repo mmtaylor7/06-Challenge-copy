@@ -17,7 +17,7 @@ async function displayCurrentWeather() {
         document.querySelector(".city").innerHTML = weatherData.name;
         document.querySelector(".temperature0").innerHTML = weatherData.main.temp;
         document.querySelector(".humidity0").innerHTML = weatherData.main.humidity;
-        document.querySelector(".wind0").innerHTML = weatherData.wind;
+        document.querySelector(".wind0").innerHTML = weatherData.wind.speed;
 
         console.log(weatherData);
     }
