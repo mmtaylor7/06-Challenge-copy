@@ -23,6 +23,8 @@ async function displayCurrentWeather() {
         console.log(weatherData);
 
             
+            document.querySelector('.city').innerHTML = city;
+            document.querySelector('.current-image').innerHTML = weatherData.current.weather.icon;
             document.querySelector('.uvOriginal').innerHTML = weatherData.current.uvi;
             document.querySelector('.temperatureOriginal').innerHTML = weatherData.current.temp;
             document.querySelector('.windOriginal').innerHTML = weatherData.current.wind_speed;
