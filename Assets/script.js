@@ -26,29 +26,16 @@ async function displayCurrentWeather() {
 
         for (let i = 0; i < 5; i++) {
             
-
             document.querySelector('.wind' + i).innerHTML = weatherData.daily[i].wind_speed;
             document.querySelector('.temperature' + i).innerHTML = weatherData.daily[i].temp.max;
             document.querySelector('.humidity' + i).innerHTML = weatherData.daily[i].humidity;
             }
                 
             }
-        // document.querySelector(".city").innerHTML = weatherData.name;
-        // document.querySelector(".temperature0").innerHTML = weatherData.main.temp;
-        // document.querySelector(".humidity0").innerHTML = weatherData.main.humidity;
-        // document.querySelector(".wind0").innerHTML = weatherData.wind.speed;
+        
     }
         
-// for (let i = 0; i < 6; i++) {
-//         console.log(weatherData.daily[i].temp.max)
-//             // document.getElementById(`temp` + i)
-            
-//         }
-//         // console.log(weatherData.daily);
-//     }
+// 
     
 
 
-// fetch("url").then(tacocat =>{
-//     console.log(tacocat)
-// })
