@@ -18,7 +18,14 @@ async function displayCurrentWeather() {
         weatherData = await weatherData.json();
         console.log(weatherData);
 
-        for (let i = 0; i < 6; i++) {
+            document.querySelector('.user-input').value = city;
+            document.querySelector('.uv0').innerHTML = weatherData.current.uvi;
+            document.querySelector('.temperature0').innerHTML = weatherData.current.temp;
+            document.querySelector('.wind0').innerHTML = weatherData.current.wind_speed;
+            document.querySelector('.humidity0').innerHTML = weatherData.current.humidity;
+
+        for (let i = 0; i < 5; i++) {
+            
 
             document.querySelector('.wind' + i).innerHTML = weatherData.daily[i].wind_speed;
             document.querySelector('.temperature' + i).innerHTML = weatherData.daily[i].temp.max;
