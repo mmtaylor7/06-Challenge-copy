@@ -22,6 +22,7 @@ async function displayCurrentWeather() {
 
             document.querySelector('.wind' + i).innerHTML = weatherData.daily[i].wind_speed;
             document.querySelector('.temperature' + i).innerHTML = weatherData.daily[i].temp.max;
+            document.querySelector('.humidity' + i).innerHTML = weatherData.daily[i].humidity;
             }
                 
             }
