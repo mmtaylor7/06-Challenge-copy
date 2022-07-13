@@ -95,12 +95,16 @@
     font-family: 'Rubik', sans-serif;
     font-size: 45px;
     margin-left: 12px;
+}
 
+.current-date {
+    font-family: 'Rubik', sans-serif;
+    font-size: 45px;
+    margin-left: 12px;
 }
 
 .current-image {
     margin-left: 20px;
-    
 }
 
 .current-temp {
@@ -209,3 +213,4 @@
 .uv0 {
     margin: 5px;
 }
+

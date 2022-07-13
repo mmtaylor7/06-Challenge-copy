@@ -1,15 +1,15 @@
 var APIKey = "8059d089214d0c37818b7644ffe96232"
-
 var city;
+let date = new Date().toLocaleDateString();
+console.log(date);
 
-function displayCity () {
 
-}
 
-// var queryURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid={API key}`
-// https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}
+
+
 async function displayCurrentWeather() {
     city = document.querySelector('.user-input').value;
+    
     
     
     if(city) {
