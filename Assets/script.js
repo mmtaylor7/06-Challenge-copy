@@ -1,6 +1,8 @@
 var APIKey = "8059d089214d0c37818b7644ffe96232"
 var city;
+let todaysDate = new Date().toLocaleDateString();
 
+console.log(todaysDate);
 
 
 
@@ -9,6 +11,7 @@ var city;
 async function displayCurrentWeather() {
    
     city = document.querySelector('.user-input').value;
+    document.querySelector('.current-date').innerHTML = todaysDate;
 
     
     
