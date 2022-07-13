@@ -1,8 +1,12 @@
 var APIKey = "8059d089214d0c37818b7644ffe96232"
 var city;
 let todaysDate = new Date().toLocaleDateString();
+var someDate = new Date();
+var numberOfDaysToAdd = 2;
+var result = someDate.setDate(someDate.getDate() + numberOfDaysToAdd);
 
 console.log(todaysDate);
+console.log(result.toLocaleDateString());
 
 
 
