@@ -12,11 +12,11 @@ SO THAT I can plan a trip accordingly
 ![deployment](./Assets/Screen%20Shot%202022-07-12%20at%209.08.53%20PM.png)
 
 #### Deployment Link
-[Mary Margaret Taylor]()
+[Mary Margaret Taylor](https://mmtaylor7.github.io/Weather-Dashboard/)
 
 ##### GitHub Repository Link
 
-[Mary Margaret Taylor Repository]()
+[Mary Margaret Taylor Repository](https://github.com/mmtaylor7/Weather-Dashboard)
 
 ###### Contributors
 
