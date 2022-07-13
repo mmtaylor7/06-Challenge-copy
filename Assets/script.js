@@ -1,14 +1,15 @@
 var APIKey = "8059d089214d0c37818b7644ffe96232"
 var city;
-let date = new Date().toLocaleDateString();
-console.log(date);
+
 
 
 
 
 
 async function displayCurrentWeather() {
+   
     city = document.querySelector('.user-input').value;
+
     
     
     
@@ -34,13 +35,11 @@ async function displayCurrentWeather() {
             document.querySelector('.wind' + i).innerHTML = weatherData.daily[i].wind_speed;
             document.querySelector('.temperature' + i).innerHTML = weatherData.daily[i].temp.max;
             document.querySelector('.humidity' + i).innerHTML = weatherData.daily[i].humidity;
-            }
-                
+            
+            
+            
             }
         
     }
         
-// 
-    
-
-
+}
