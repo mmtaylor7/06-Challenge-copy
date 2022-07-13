@@ -1,13 +1,8 @@
 var APIKey = "8059d089214d0c37818b7644ffe96232"
 var city;
 let todaysDate = new Date().toLocaleDateString();
-var someDate = new Date();
-var numberOfDaysToAdd = 2;
-var result = someDate.setDate(someDate.getDate() + numberOfDaysToAdd);
 
-console.log(todaysDate);
-console.log(result.toLocaleDateString());
-
+// day + "/" + month + "/" + year
 
 
 
@@ -42,7 +37,15 @@ async function displayCurrentWeather() {
             document.querySelector('.wind' + i).innerHTML = weatherData.daily[i].wind_speed;
             document.querySelector('.temperature' + i).innerHTML = weatherData.daily[i].temp.max;
             document.querySelector('.humidity' + i).innerHTML = weatherData.daily[i].humidity;
-            
+
+            var currentDate = new Date(new Date().getTime() + 24 * (i + 1) * 60 * 60 * 1000);
+            var day = currentDate.getDate()
+            var month = currentDate.getMonth() + 1
+            var year = currentDate.getFullYear()
+            var futureDate = month + "/" + day + "/" + year
+
+            document.querySelector('.date' + i).innerHTML = futureDate
+
             
             
             }
